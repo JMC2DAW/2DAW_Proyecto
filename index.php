@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indie Game Haven</title>
+    <title>IndieStyled</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="scripts/script.js" defer></script>
 </head>
@@ -12,7 +12,7 @@
     <!-- Header -->
     <header class="header">
         <div class="header-container">
-            <h1 class="logo">Indie Game Haven</h1>
+            <h1 class="logo">IndieStyled</h1>
             <nav class="navbar">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -30,7 +30,7 @@
     <section class="main" id="inicio">
         <div class="main-inner">
             <div class="main-content">
-                <h2 class="main-title">¡Bienvenid@ a Indie Game Haven!</h2>
+                <h2 class="main-title">¡Bienvenid@ a IndieStyled!</h2>
                 <p class="main-subtitle">Explora el fascinante mundo de los videojuegos indie, donde la creatividad y la innovación son el pan de cada día.</p>
                 <div class="main-buttons">
                     <a href="pages/catalogue.php" class="btn btn-primary">Explora juegos</a>
@@ -67,7 +67,7 @@
                     La evolución de los juegos indie ha sido impulsada por la tecnología y la comunidad. El acceso a herramientas de desarrollo más fáciles de usar, como Unity y Unreal Engine, ha democratizado aún más la creación de juegos. Además, la creciente comunidad de jugadores que buscan experiencias únicas y originales ha sido un factor clave en el éxito de los juegos indie.
                 </p>
                 <p class="story-text">
-                    En Indie Game Haven, celebramos esta creatividad sin límites y te invitamos a descubrir los títulos que están transformando la industria del videojuego.
+                    En IndieStyled, celebramos esta creatividad sin límites y te invitamos a descubrir los títulos que están transformando la industria del videojuego.
                 </p>
 
 
@@ -112,10 +112,10 @@
     </main>
 
     <footer>
-        <p>"Indie Game Haven, la página independiente para los videojuegos independientes."</p>
-        <p>- <i>Javier Martín Cruz, creador de Indie Game Haven</i></p>
+        <p>"IndieStyled, la página independiente para los videojuegos independientes."</p>
+        <p>- <i>Javier Martín Cruz, creador de IndieStyled</i></p>
         <br>
-        <p>&copy; 2025 Indie Game Haven. Todos los derechos reservados.</p>
+        <p>&copy; 2025-2026 IndieStyled. Todos los derechos reservados.</p>
         <p>Esta página no está afiliada con Steam, Itch.io u otra plataforma relacionada, esta página es un proyecto escolar y personal.</p>
     </footer>
 </body>
