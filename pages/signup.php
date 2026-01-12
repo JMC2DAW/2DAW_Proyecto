@@ -67,14 +67,15 @@ if ($exito) {
             max-width: 500px;
             margin: 3rem auto;
             padding: 2rem;
-            background-color: white;
+            background-color: #1a1a1a;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            border: 1px solid #00d4ff;
         }
 
         .signup-container h1 {
             text-align: center;
-            color: #1a1a1a;
+            color: #00d4ff;
             margin-bottom: 2rem;
         }
 
@@ -85,17 +86,19 @@ if ($exito) {
         .form-group label {
             display: block;
             margin-bottom: 0.5rem;
-            color: #1a1a1a;
+            color: #e0e0e0;
             font-weight: 500;
         }
 
         .form-group input {
             width: 100%;
             padding: 0.75rem;
-            border: 1px solid #ddd;
+            border: 1px solid #00d4ff;
             border-radius: 4px;
             font-size: 1rem;
             transition: border-color 0.3s;
+            background-color: #2a2a2a;
+            color: #e0e0e0;
         }
 
         .form-group input:focus {
@@ -105,9 +108,9 @@ if ($exito) {
         }
 
         .errores {
-            background-color: #fee;
-            border: 1px solid #f00;
-            color: #c00;
+            background-color: #2a1a1a;
+            border: 1px solid #ff4444;
+            color: #ffaaaa;
             padding: 1rem;
             border-radius: 4px;
             margin-bottom: 1.5rem;
@@ -155,6 +158,8 @@ if ($exito) {
     </style>
 </head>
 <body>
+    <div class="login-background"></div>
+    <div class="login-overlay"></div>
     <header class="header">
         <div class="header-container">
             <h1 class="logo">IndieStyled</h1>
@@ -166,7 +171,7 @@ if ($exito) {
         </div>
     </header>
 
-    <main>
+    <main style="position: relative; z-index: 10;">
         <div class="signup-container">
             <h1>Iniciar sesión</h1>
 
@@ -231,7 +236,7 @@ if ($exito) {
         </div>
     </main>
 
-    <footer>
+    <footer style="position: relative; z-index: 10;">
         <p>&copy; 2025-2026 IndieStyled. Todos los derechos reservados.</p>
     </footer>
 </body>

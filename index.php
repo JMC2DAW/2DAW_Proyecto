@@ -58,7 +58,7 @@ session_start();
     <main>
         <!-- Sección Historia de los videojuegos indie -->
         <section class="story-section" id="historia">
-            <div class="story-background" style="background-image: url('img/story_bg.jpg')"></div>
+            <div class="story-background"></div>
             <div class="story-overlay"></div>
             <div class="story-content">
                 <h2 class="story-title">La Historia de los Videojuegos Indie</h2>
@@ -80,7 +80,6 @@ session_start();
                 <p class="story-text">
                     En IndieStyled, celebramos esta creatividad sin límites y te invitamos a descubrir los títulos que están transformando la industria del videojuego.
                 </p>
-
 
             </div>
         </section>

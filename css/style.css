@@ -221,23 +221,22 @@ footer {
     position: relative;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-}
-
-.story-background {
-    position: absolute;
-    inset: 0;
-    background-image: url('img/story_bg.jpg');
-    background-size: cover;
-    background-position: center;
-    animation: scrollBackground 40s linear infinite;
-    z-index: 1;
+    padding: 2rem 0;
 }
 
 @keyframes scrollBackground {
     0% { background-position: center 0; }
     100% { background-position: center 100%; }
+}
+
+.story-background {
+    position: absolute;
+    inset: 0;
+    background-image: url('../img/story_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: scrollBackground 40s linear infinite;
+    z-index: 1;
 }
 
 .story-overlay {
@@ -247,12 +246,29 @@ footer {
     z-index: 2;
 }
 
+.login-background {
+    position: fixed;
+    inset: 0;
+    background-image: url('../img/story_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: scrollBackground 40s linear infinite;
+    z-index: 1;
+}
+
+.login-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(26, 26, 26, 0.75);
+    z-index: 2;
+}
+
 .story-content {
     position: relative;
     max-width: 900px;
     margin: 0 auto;
-    padding: 6rem 2rem;
-    height: 100%;
+    padding: 4rem 2rem;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
