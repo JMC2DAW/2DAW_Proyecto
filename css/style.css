@@ -29,6 +29,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -47,6 +49,53 @@ body {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
+}
+
+/* Auth Section */
+.auth-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.usuario-nombre {
+    color: #00d4ff;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.btn-login,
+.btn-logout {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: none;
+    font-size: 0.95rem;
+}
+
+.btn-login {
+    background-color: #00d4ff;
+    color: #1a1a1a;
+}
+
+.btn-login:hover {
+    background-color: #00b8d4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 212, 255, 0.3);
+}
+
+.btn-logout {
+    background-color: #ff4444;
+    color: white;
+}
+
+.btn-logout:hover {
+    background-color: #dd3333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 68, 68, 0.3);
 }
 
 .navbar a:hover {

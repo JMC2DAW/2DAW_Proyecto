@@ -1,4 +1,6 @@
-<?php?>
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,6 +25,15 @@
                     <li><a href="pages/quiz.php">Quiz</a></li>
                 </ul>
             </nav>
+            <div class="auth-section">
+                <?php if (isset($_SESSION['usuario'])): ?>
+                    <span class="usuario-nombre"><?php echo htmlspecialchars($_SESSION['usuario']); ?></span>
+                    <a href="pages/logout.php" class="btn btn-secondary">Cerrar sesión</a>
+                </div>
+                <?php else: ?>
+                    <a href="pages/signup.php" class="btn btn-primary">Iniciar sesión</a>
+                <?php endif; ?>
+            </div>
         </div>
     </header>
 
