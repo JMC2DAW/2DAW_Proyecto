@@ -1,41 +1,6 @@
-<?php
-session_start();
-?>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IndieStyled</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="scripts/script.js" defer></script>
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-container">
-            <h1 class="logo">IndieStyled</h1>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="pages/catalogue.php">Catálogo</a></li>
-                    <li><a href="pages/compras.php">Planeamiento de compras</a></li>
-                    <li><a href="pages/ranking.php">Ranking</a></li>
-                    <li><a href="pages/discovery.php">Recomendaciones</a></li>
-                    <li><a href="pages/quiz.php">Quiz</a></li>
-                </ul>
-            </nav>
-            <div class="auth-section">
-                <?php if (isset($_SESSION['usuario'])): ?>
-                    <span class="usuario-nombre"><?php echo htmlspecialchars($_SESSION['usuario']); ?></span>
-                    <a href="pages/logout.php" class="btn btn-secondary">Cerrar sesión</a>
-                </div>
-                <?php else: ?>
-                    <a href="pages/signup.php" class="btn btn-primary">Iniciar sesión</a>
-                <?php endif; ?>
-            </div>
-        </div>
-    </header>
+<?php include("templates/session.php"); ?>
+
+<?php include("templates/header.php"); ?>
 
     <!-- Sección Principal (main) -->
     <section class="main" id="inicio">
@@ -44,8 +9,8 @@ session_start();
                 <h2 class="main-title">¡Bienvenid@ a IndieStyled!</h2>
                 <p class="main-subtitle">Explora el fascinante mundo de los videojuegos indie, donde la creatividad y la innovación son el pan de cada día.</p>
                 <div class="main-buttons">
-                    <a href="pages/catalogue.php" class="btn btn-primary">Explora juegos</a>
-                    <a href="pages/discovery.php" class="btn btn-secondary">Descubre más</a>
+                    <a href="catalogue.php" class="btn btn-primary">Explora juegos</a>
+                    <a href="discovery.php" class="btn btn-secondary">Descubre más</a>
                 </div>
             </div>
 
@@ -88,31 +53,31 @@ session_start();
         <section class="features-section">
             <h2 class="features-title">Explora todas nuestras funciones</h2>
             <div class="features-grid">
-                <a href="pages/catalogue.php" class="feature-card">
+                <a href="catalogue.php" class="feature-card">
                     <div class="feature-icon">📚</div>
                     <h3>Catálogo</h3>
                     <p>Descubre nuestra extensa colección de videojuegos indie con descripciones detalladas y reseñas.</p>
                 </a>
 
-                <a href="pages/compras.php" class="feature-card">
+                <a href="compras.php" class="feature-card">
                     <div class="feature-icon">🛒</div>
                     <h3>Planeamiento de compras</h3>
                     <p>Planifica tus compras de juegos indie y gestiona tu lista de deseos de forma eficiente.</p>
                 </a>
 
-                <a href="pages/ranking.php" class="feature-card">
+                <a href="ranking.php" class="feature-card">
                     <div class="feature-icon">⭐</div>
                     <h3>Ranking</h3>
                     <p>Explora los juegos indie mejor valorados por la comunidad y descubre los favoritos.</p>
                 </a>
 
-                <a href="pages/discovery.php" class="feature-card">
+                <a href="discovery.php" class="feature-card">
                     <div class="feature-icon">💡</div>
                     <h3>Recomendaciones</h3>
                     <p>Obtén recomendaciones personalizadas basadas en tus preferencias de juego.</p>
                 </a>
 
-                <a href="pages/quiz.php" class="feature-card">
+                <a href="quiz.php" class="feature-card">
                     <div class="feature-icon">❓</div>
                     <h3>Quiz</h3>
                     <p>Realiza nuestro quiz interactivo para demostrar tus conocimientos sobre los videojuegos indie con tus amigos.</p>
@@ -121,12 +86,4 @@ session_start();
         </section>
     </main>
 
-    <footer>
-        <p>"IndieStyled, la página independiente para los videojuegos independientes."</p>
-        <p>- <i>Javier Martín Cruz, creador de IndieStyled</i></p>
-        <br>
-        <p>&copy; 2025-2026 IndieStyled. Todos los derechos reservados.</p>
-        <p>Esta página no está afiliada con Steam, Itch.io u otra plataforma relacionada, esta página es un proyecto escolar y personal.</p>
-    </footer>
-</body>
-</html>
+<?php include("templates/footer.php"); ?>
