@@ -4,7 +4,7 @@
 <div class="page-background"></div>
 <div class="page-overlay"></div>
 
-<main class="catalogue-main" style="position: relative; z-index: 10;">
+<main class="catalogue-main">
     <div class="catalogue-header">
         <h1>Catálogo de Juegos</h1>
         <p>Explora nuestra colección de juegos indie seleccionados</p>

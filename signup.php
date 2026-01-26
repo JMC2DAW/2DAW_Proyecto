@@ -62,7 +62,7 @@ if ($exito) {
     <div class="login-background"></div>
     <div class="login-overlay"></div>
 
-    <main style="position: relative; z-index: 10;">
+    <main class="signup-main">
         <div class="signup-container">
             <h1>Iniciar sesión</h1>
 
@@ -127,7 +127,7 @@ if ($exito) {
         </div>
     </main>
 
-    <footer style="position: relative; z-index: 10;">
+    <footer class="signup-footer">
         <p>&copy; 2025-2026 IndieStyled. Todos los derechos reservados.</p>
     </footer>
 </body>
