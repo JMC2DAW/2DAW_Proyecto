@@ -14,7 +14,7 @@
             <h1 class="logo">IndieStyled</h1>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li><a href="catalogue.php">Catálogo</a></li>
                     <li><a href="compras.php">Planeamiento de compras</a></li>
                     <li><a href="ranking.php">Ranking</a></li>
@@ -26,7 +26,6 @@
                 <?php if (isset($_SESSION['usuario'])): ?>
                     <span class="usuario-nombre"><?php echo htmlspecialchars($_SESSION['usuario']); ?></span>
                     <a href="logout.php" class="btn btn-secondary">Cerrar sesión</a>
-                </div>
                 <?php else: ?>
                     <a href="signup.php" class="btn btn-primary">Iniciar sesión</a>
                 <?php endif; ?>

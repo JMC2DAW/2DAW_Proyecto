@@ -1,0 +1,160 @@
+{
+    "discountCodes": [
+        {
+            "code": "indiestyled",
+            "discount": 15,
+            "active": true,
+            "message": "Explora el fascinante mundo de los videojuegos indie, donde la creatividad y la innovación son el pan de cada día. Disfruta de un 15% de descuento en tu compra."
+        },
+        {
+            "code": "onyrikat",
+            "discount": 25,
+            "active": true,
+            "message": "https://linktr.ee/Onyrikat"
+        },
+        {
+            "code": "chirlya",
+            "discount": 16,
+            "active": true,
+            "message": "rawr"
+        },
+        {
+            "code": "imjustgointostealit",
+            "discount": 100,
+            "active": true,
+            "message": "Mi cartera..."
+        },
+        {
+            "code": "iwanttopaymore",
+            "discount": -50,
+            "active": true,
+            "message": "Alguien que quiere apoyar más... ¡eres increíble!"
+        },
+        {
+            "code": "fullpriceplease",
+            "discount": 0,
+            "active": true,
+            "message": "También podrías no haber puesto ningún código, pero gracias por el apoyo."
+        },
+        {
+            "code": "expiredcode",
+            "discount": 10,
+            "active": false,
+            "message": " "
+        },
+        {
+            "code": "doubleitandgiveittothenextperson",
+            "discount": -100,
+            "active": true,
+            "message": "'Capullo' -El siguiente comprador"
+        },
+        {
+            "code": "halveitandgiveittothenextperson",
+            "discount": 50,
+            "active": true,
+            "message": "'Tremendo' -El siguiente comprador"
+        },
+        {
+            "code": "kogreluche",
+            "discount": 5,
+            "active": true,
+            "message": " "
+        },
+        {
+            "code": "1987",
+            "discount": 19.87,
+            "active": true,
+            "message": "Is that the bite of '87??????????"
+        },
+        {
+            "code": "skillissue",
+            "discount": -200,
+            "active": true,
+            "message": "- Demi"
+        },
+        {
+            "code": "thiscodeisacompleteandutterwasteofyourpreciousandhardearnedtimeyoucouldhavebeenspendingdoingliterallyanythingelsethanwritingoutthisstupidcodethatgivesyouaninsignificantdiscountbutatleastitsnotnegativeright",
+            "discount": 0.1,
+            "active": true,
+            "message": "¿Por qué pierdes tu tiempo con esto?"
+        },
+        {
+            "code": "rememberthepreviouslongcodewellheresaneverlongeronebecauseiwanttoandevenifitwontbenefitmeinanywayapartfromsomelaughsbetweenfriendsandmakingyouprobablywastemoreofyourtimetypingitoutjusttofindoutitgivesyouanevenmoreinsignificantdiscountthanthepreviousoneandyouwillprobablyfeellikeyouareactuallywastingmorethanyourtimeonthisormaybeyoujustcopypasteditbecausethereisnowayinhellyouarewillingtowritethisonyourownbutlikethepreviousoneyoushouldbegladitsnotnegative",
+            "discount": 0.01,
+            "active": true,
+            "message": "Grábate escribiendo todo esto sin copiar y pegar. Te mando un bizum de un euro si me lo mandas."
+        },
+        {
+            "code": "thetruediscountisthefriendswemadealongtheway",
+            "discount": 0,
+            "active": true,
+            "message": "Hilarante."
+        },
+        {
+            "code": "mystick",
+            "discount": 25,
+            "active": true,
+            "message": "Mis apuntes!"
+        },
+        {
+            "code": "stopthelongcodes",
+            "discount": 1,
+            "active": true,
+            "message": "Huelga por códigos largos."
+        },
+        {
+            "code": "wiwoso",
+            "discount": 10,
+            "active": true,
+            "message": "el wiwo"
+        },
+        {
+            "code": "rimuriño",
+            "discount": 69,
+            "active": true,
+            "message": " "
+        },
+        {
+            "code": "anx",
+            "discount": 6,
+            "active": true,
+            "message": "Happy pride month, 🚬"
+        },
+        {
+            "code": "a",
+            "discount": 1,
+            "active": true,
+            "message": "a"
+        },
+        {
+            "code": "youpayme",
+            "discount": 200,
+            "active": true,
+            "message": "Vale tío no me pegues."
+        },
+        {
+            "code": "bankrupted",
+            "discount": 1000,
+            "active": true,
+            "message": " "
+        },
+        {
+            "code": "ñ",
+            "discount": 101,
+            "active": true,
+            "message": " "
+        },
+        {
+            "code": "seal",
+            "discount": 4,
+            "active": true,
+            "message": " "
+        },
+        {
+            "code": "mask",
+            "discount": 50,
+            "active": true,
+            "message": "52616e6d61206973206669676874696e6720666f7220796f752c20616e6420796f752062657472617965642068696d2c206f70656e20796f7572206579657320616e642061636365707420796f75722066617465"
+        }
+    ]
+}
